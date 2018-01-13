@@ -4,6 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #110c11;
 }
 
 header {
@@ -30,13 +31,13 @@ header {
 
 .logo {
   height: 1.5rem;
-  margin: .66rem 0 .66rem .5rem;
+  margin: .66rem 0 .66rem 1.5rem;
 }
 
 h1 {
   color: white;
   font-family: Helvetica;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
   font-weight: bold;
 
@@ -65,7 +66,8 @@ h3 {
 
 nav {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  justify-content: center;
   background-color: firebrick;
   height: 2.5rem;
   width: 100%;
@@ -81,6 +83,8 @@ nav a {
   color: #fff;
   text-decoration: none;
   margin: .66rem 0 .66rem;
+  padding: 0 2.5rem;
+  /* border: 2px solid yellow; */
 }
 
 h4 {
@@ -92,7 +96,8 @@ h4 {
  display: flex;
  flex-direction: column;
  align-items: center;
- width: 960px;
+ width: 1024px;
+ background-color: white;
  border: 1px solid black;
 }
 
@@ -160,6 +165,7 @@ h4 {
  height: auto;
  margin-top: 3rem;
  margin-bottom: 4rem;
+ /* padding-left: 2rem; */
  /* justify-content: center; */
  border: 1px solid black;
 
@@ -170,14 +176,18 @@ h4 {
   display: flex;
   flex-direction: column;
   width: 30%;
-  padding: 1rem 0 1rem 1rem;
+  padding: 1rem 0 1rem 0;
   border: 3px solid red;
 }
 
 .store-hours {
-  margin-left: 25%;
+  margin-left: 15%;
 }
 
+.store-location {
+
+  margin-left: 10%;
+}
 
 .location,
 .hours-title{
